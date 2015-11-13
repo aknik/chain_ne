@@ -1,0 +1,15 @@
+machine:
+  python:
+    version: 2.7
+dependencies:
+  pre:
+    
+    - pip install ecdsa
+    - pip install pbkdf2
+    - pip install bitcoin
+    
+test:
+  override:
+      
+    - python ne.py
+

@@ -1,0 +1,8 @@
+ecdsa
+bitcoin
+requests==2.4.3
+pbkdf2
+
+
+
+
